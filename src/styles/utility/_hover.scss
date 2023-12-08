@@ -1,0 +1,22 @@
+@use "sass:math";
+@use '@/styles/global/' as *;
+
+.u-hover-alpha {
+  @include hover {
+    transition: opacity .45s;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  @include hover-none {
+    transition: opacity .45s;
+
+    &:active {
+      opacity: 0.6;
+    }
+  }
+
+  @include no-motion;
+}

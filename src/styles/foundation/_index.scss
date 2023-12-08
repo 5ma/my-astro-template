@@ -21,7 +21,9 @@ html {
 
 body {
   position: relative;
+
   @include font-ja;
+
   line-height: 1.65;
   color: var(--color-black);
   letter-spacing: normal;

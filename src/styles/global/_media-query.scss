@@ -44,6 +44,7 @@ $breakpoints: (
   }
 }
 
+/* stylelint-disable media-feature-name-no-unknown */
 @mixin min-max-w($min-wid, $max-wid) {
   @media (#{$min-wid}px <= width <= #{$max-wid}px) {
     @content;

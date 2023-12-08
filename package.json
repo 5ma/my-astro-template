@@ -14,5 +14,15 @@
     "astro": "^4.0.3",
     "sass": "^1.69.5",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss-preset-env": "^9.3.0"
+  },
+  "browserslist": [
+    "last 2 version"
+  ],
+  "volta": {
+    "node": "20.9.0"
   }
 }

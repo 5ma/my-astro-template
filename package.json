@@ -8,6 +8,8 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "eslint": "eslint \"src/**/*.{ts,js,vue,astro}\"",
+    "eslint:fix": "eslint \"src/**/*.{ts,js,vue,astro}\" --fix",
     "stylelint": "stylelint \"src/**/*.scss\" \"src/**/*.astro\"",
     "stylelint:fix": "stylelint \"src/**/*.scss\" \"src/**/*.astro\" --fix"
   },
@@ -18,7 +20,14 @@
     "typescript": "^5.3.3"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
     "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-astro": "^0.30.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-unicorn": "^49.0.0",
     "postcss-html": "^1.5.0",
     "postcss-preset-env": "^9.3.0",
     "stylelint": "^15.11.0",

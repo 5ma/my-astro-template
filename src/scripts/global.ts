@@ -1,0 +1,1 @@
+console.debug('global.ts')
